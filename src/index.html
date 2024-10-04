@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Search App</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <div class="bg-green-600 text-white p-4 flex justify-between items-center">
+        <!-- Left Side: News Icon and Title -->
+        <div class="flex items-center space-x-2">
+            <!-- News Icon -->
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg> -->
+            <h1 class="text-2xl font-semibold">News</h1>
+        </div>
+        
+        <!-- Right Side: Search Bar and Button -->
+        <div class="flex items-center space-x-2">
+            <input type="text" placeholder="Search News..." class="px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">
+            <button class="px-4 py-2 bg-white text-green-600 font-semibold rounded-md hover:bg-green-700 hover:text-white transition">Search</button>
+        </div>
+    </div>
+
+    <!-- News Cards Container -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://via.placeholder.com/150" alt="News Image" class="w-full h-40 object-cover">
+            <!-- <div class="p-4"> -->
+                <h3 class="text-lg font-semibold p-4">Google's experimental Project ...</h3>
+                <p class="text-gray-600 mt-2 p-4">Google has updated its experimental Project IDX web-based software development platform...</p>
+            </div>
+        <!-- </div> -->
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://via.placeholder.com/150" alt="News Image" class="w-full h-40 object-cover">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold">AI Algorithms Can Be Converted...</h3>
+                <p class="text-gray-600 mt-2">While AI tools offer new capabilities for web users, they also have the potential to...</p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://via.placeholder.com/150" alt="News Image" class="w-full h-40 object-cover">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold">Synthetic Data Is a Dangerous ...</h3>
+                <p class="text-gray-600 mt-2">In the race to scale up, the number of AIs being trained on poor-quality data sets...</p>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://via.placeholder.com/150" alt="News Image" class="w-full h-40 object-cover">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold">Weird things engineers believe...</h3>
+                <p class="text-gray-600 mt-2">I wrote most of this post sometime in 2022 but I think it holds up alright in 2024...</p>
+            </div>
+        </div>
+
+        <!-- Add more cards below as needed -->
+        <!-- Card 5 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://via.placeholder.com/150" alt="News Image" class="w-full h-40 object-cover">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold">Future-Proofing Your Website: ...</h3>
+                <p class="text-gray-600 mt-2">Emerging web technologies are driving companies to rethink the websites of the future...</p>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://via.placeholder.com/150" alt="News Image" class="w-full h-40 object-cover">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold">The World Of Web Browsers Is I...</h3>
+                <p class="text-gray-600 mt-2">There once was a man who invented a means for publishing scientific documents...</p>
+            </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://via.placeholder.com/150" alt="News Image" class="w-full h-40 object-cover">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold">The website vs. web app dichot...</h3>
+                <p class="text-gray-600 mt-2">A one-dimensional spectrum can't sufficiently capture the tradeoffs involved in web...</p>
+            </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://via.placeholder.com/150" alt="News Image" class="w-full h-40 object-cover">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold">Pitchfork to be absorbed into ...</h3>
+                <p class="text-gray-600 mt-2">According to a Condé Nast staff memo, the indie music publication is being merged...</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
